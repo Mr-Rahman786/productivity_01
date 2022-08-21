@@ -1,24 +1,26 @@
 /* all font family */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&family=Pacifico&family=Raleway:ital,wght@0,400;1,100&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&family=Pacifico&display=swap');
 
 
 
 
 body{
     margin: 0;
-    /* background-image: url(./neon1.jpg); */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* color: white; */
+    
 }
 .header{
     display: flex;
     text-align: center;
     padding: 10px;
     background-color: black;
-    /* height: 40px; */
+    
 
 }
 .prepar{
@@ -35,7 +37,6 @@ h5{
     font-size: 2.5rem;
     font-family: 'Bebas Neue', cursive;
     word-spacing: 10px;
-        /* font-family: 'Raleway', sans-serif; */
 }
 .flexible{
     display: flex;
@@ -47,13 +48,11 @@ h5{
     font-size: 3rem;
     font-family: 'Dancing Script', cursive;
         font-family: 'Pacifico', cursive;
-        /* font-family: 'Raleway', sans-serif; */
 }
 .business-1{
     font-family: 'Bree Serif', serif;
         font-family: 'Dancing Script', cursive;
         font-family: 'Pacifico', cursive;
-        /* font-family: 'Raleway', sans-serif; */
 }
 .strong-1{
     font-size: 2.5rem;
@@ -106,4 +105,75 @@ h5{
 .half-another{
     width: 25%;
     padding: 7.5%;
+    box-shadow: 5px 6px 10px 6px black; 
+    border-radius: 20px; 
+    
+}
+.container-image-01{
+        margin-left: 2%;
+            background-image: url(./service0-removebg-preview.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+}
+.container-image-01 img{
+    width: 20px;
+}
+.flex{
+    display: flex;
+    
+}
+
+.explore{
+    font-size: 3rem;
+    color: orangered;
+    
+    font-family: 'Bree Serif', serif;
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'Pacifico', cursive; */
+
+}
+#border-span{
+    border-radius: 5px;
+    padding-left: 2%;
+    border-left: 5px solid black;
+}
+.item{
+    
+    width: 35%;
+    padding: 10% ;
+    margin: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 5px  4px 30px 5px black;
+    height: 200px;
+
+    
+}
+.background-1{
+    background-image: url(./service0-removebg-preview.png);
+
+    
+    background-size:30%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.background-2 {
+    background-image: url(./help-removebg-preview.png);
+    
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.background-3 {
+    background-image: url(./productivity-removebg-preview.png);
+    
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+footer{
+    text-align: center;
+}
+.footer{
+    margin-top: 20px;
 }
